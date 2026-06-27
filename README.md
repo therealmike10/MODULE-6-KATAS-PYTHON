@@ -26,7 +26,7 @@ Para cada ejercicio, de manera general, se siguió el esquema de trabajo que se 
 \
 ⚠️ En un par de problemas puntuales, **se utilizó inteligencia artificial como asistente** (sin generación directa de código) para enocontrar el fallo en un código que el usuario no fue capaz de encontrar por sí mismo.\
 \
-⚠️ Las herramientas de auto-completado de código, como la extensión 'auto​Docstring', **fueron desactivadas para este ejercicio**, favoreciendo la generación de código original por parte del usuario.\
+⚠️ Las herramientas de auto-completado de código, como la extensión 'auto​Docstring', **fueron desactivadas para este ejercicio**, favoreciendo la generación de código original por parte del usuario.
 
 ## 🛠️ Herramientas y lenguajes utilizadas
 - Lenguaje: Python
