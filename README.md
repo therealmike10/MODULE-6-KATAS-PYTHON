@@ -12,29 +12,26 @@ Proyecto final del Módulo 6 del curso Data & Analytics V3 de ThePower, desarrol
 - Uso de las funciones **map(), filter() y reduce()**
 - **Progrmación orientada a objetos**: construcción de clase, instancia de objetos y métodos de clase
 
-## ⬇️ Carga de la base de datos 
-En primer lugar, importamos nuestra base de datos a DBeaver por medio de postgresSQL (Crear nueva base de datos). Una vez se ha creado nuestra BBDD en DBeaver, la establecemos por defecto, y tras esto abrimos nuestro archivo BBDD_Proyecto_shakila_sinuser.sql a través de la opción 'Buscar archivo denominado'. Una vez abierto este archivo, seleccionamos todo el código y lo ejecutamos. Por último, en caso de no ver cambios, hacemos seleccionamos la opción 'Renovar' en nuestra base de datos, y con esto tendremos cargada nuestra BBDD. 
+## 🧠 Flujo de trabajo seguido 
+Para cada ejercicio, de manera general, se siguió el esquema de trabajo que se incluye a continuación:
+1. En primer lugar, leer detenidamente el enunciado para comprender lo que estaban pidiendo, y qué métodos y fundamentos de Python podían ayudar a llegar hasta la solución.
+  1.1. En caso de que el enunciado ya especificase un método a usar, pensar cómo podía encajar ese método a la hora de resolver el problema.
+2. Tras esto, realizar un 'andamiaje' o estructura del código, para encajar las estructuras que se iban a usar y ajustar las indentaciones (p. ej., titular los bloques if, elif y else para establecer un condicional).
+3. Una vez la estructura estaba organizada, escribir el cuerpo del código, y ajustar indentaciones o estructuras anidadas si era necesario.
+4. Tras esto, comprobar el funcionamiento del código para todas las posibilidades que se contemplaban en dicho programa o función.
+5. Si el código fallaba en algún punto, revisar y encontrar el fallo, solucionar errores y volver a comprobar para las posibilidades contempladas.
+6. Por último, ajustes de buenas prácticas: Definición de funciones, incorporación de comentarios en pasos complejos o que requisieren explicación, comprobación de la sencillez de los nombres de las variables...
+⚠️ Para la elaboración del código, **no se usaron herramientas de IA generativa**, el código fue generado por el usuario.
+⚠️ En un par de problemas puntuales, **se utilizó inteligencia artificial como asistente** (sin generación directa de código) para enocontrar el fallo en un código que el usuario no fue capaz de encontrar por sí mismo.
+⚠️ Las herramientas de auto-completado de código, como la extensión 'auto​Docstring', **fueron desactivadas para este ejercicio**, favoreciendo la generación de código original por parte del usuario.
 
-Una vez hecho todo esto, para poder visualizar el esquema de nuestra BBDD, hacemos click derecho en nuestra base de datos y seleccionamos la opción 'View diagram', con lo que nos mostrará nuestra BBDD y cómo se relacionan las tablas entre ellas. De manera similar, para poder comenzar con nuestro archivo SQL, hacemos click derecho en el archivo 'public' de nuestra base de datos, seleccionamos Editor SQL -> Nuevo script SQL.
+## 🛠️ Herramientas y lenguajes utilizadas
+- Lenguaje: Python
+- Entorno: Visual Studio Code
+- Módulos: _math_, _functools_
 
-## 🧰 Esquema de la BBDD
-El archivo .sql correspondiente al esquema de la BBDD está disponible en el repositorio con el nombre _BBDD_Proyecto_shakila_Esquema_Miguel_Encinas.sql_.
-
-## 📝 SQL con las diferentes consultas
-El archivo .sql con los enunciados de los problemas planteados, así como las consultas que los resuelven, está disponible en el repositorio con el nombre _BBDD_Proyecto_shakila_Miguel_Encinas.sql_.
-
-De maner similar, el archivo plano _SQL_Code.txt_ musetra todo el código utilizado para este proyecto.
-
-## 🔎 Análisis de los datos
-En esta BBDD, nos encontramos con un conjunto de datos que concuerda con una plataforma o tienda de alquiler de películas. En dicha BBDD, tenemos por un lado la información completa de los títulos de los que disponen, tanto en la propia tabla _film_ como en las tablas relacionadas de manera directa e indirecta con ella (_actor,film_actor, category_, etc). Gracias a ello, podemos obtener información no sólo de la película en sí, sino de los actores que participan y la categoría a la que pertenecen.
-
-Por otro lado, nos encontramos con la otra parte de la BBDD, en la que podemos conocer a los clientes de esta tienda o plataforma, así como los alquileres y los pagos que han realizado. Esta información está relacionada con nuestras películas a través de la tabla _inventory_, y nos permite obtener información más centrada en el propio negocio.
-
-A través de las diferentes consultas, hemos podido obtener una gran variedad de información acerca de los actores que participan en ciertas películas, número de películas alquiladas por cliente, películas que se alquilan por encima de X precio, etc. En este proyecto, cabe destacar el uso que he podido aplicar de los **diferentes tipos de JOIN** para poder relacionar varias tablas entre sí y obtener los datos solicitados. Asimismo, la realización de **diferentes tipos de subconsultas** también me ha permitido relizar consultas avanzadas, combinando varios requisitos en una misma _query_, permitiéndome así obtener información más concreta y precisa. Po último, la combinación y aplicación de otros comandos habitualmente empleados como **(NOT) EXISTS, Vistas, Tablas temporales y CTEs** me ha permitido entender y utilizar dichas herramientas para la optimización y reutilización de las consultas.
-
+## ↪️ Conclusiones
 En general, este proyecto me ha permitido:
-- Utilizar **PostgreSQL** y **DBeaver** para la visualización y manejo de BBDD
-- **Entender una base de datos**, tantos las tablas individuales que la conforman como las relaciones que hay entre ellas
-- Utilizar diferentes **herramientas de SQL**, tanto básicas como avanzadas, permitiéndome obtener un mayor dominio del lenguaje
-- Utilizar **varios comandos diferentes** para poder obtener el mismo resultado
-- Guardar mis datos y consultas en un **archivo .sql** para compartirlo o editarlo cuando sea necesario
+- Familiarizarme con el entorno de **Visual Studio Code** y con los fundamentos de **Python** a nivel básico-intermedio como lenguaje de programación
+- Ser capaz de seguir un **flujo de trabajo** que me permita entender el problema planteado y desarrollar por mí mismo un programa o función para resolver dicho problema
+- **Entender los pormenores** de las técnicas y métodos usados para, mediante la práctica, detectar más rápidamente los errores de código y poder solucionarlos de manera eficaz
