@@ -21,6 +21,7 @@ Para cada ejercicio, de manera general, se siguió el esquema de trabajo que se 
 4. Tras esto, comprobar el funcionamiento del código para todas las posibilidades que se contemplaban en dicho programa o función.
 5. Si el código fallaba en algún punto, revisar y encontrar el fallo, solucionar errores y volver a comprobar para las posibilidades contempladas.
 6. Por último, ajustes de buenas prácticas: Definición de funciones, incorporación de comentarios en pasos complejos o que requisieren explicación, comprobación de la sencillez de los nombres de las variables...
+
 ⚠️ Para la elaboración del código, **no se usaron herramientas de IA generativa**, el código fue generado por el usuario.
 ⚠️ En un par de problemas puntuales, **se utilizó inteligencia artificial como asistente** (sin generación directa de código) para enocontrar el fallo en un código que el usuario no fue capaz de encontrar por sí mismo.
 ⚠️ Las herramientas de auto-completado de código, como la extensión 'auto​Docstring', **fueron desactivadas para este ejercicio**, favoreciendo la generación de código original por parte del usuario.
