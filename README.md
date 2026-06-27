@@ -28,7 +28,7 @@ Para cada ejercicio, de manera general, se siguió el esquema de trabajo que se 
 \
 ⚠️ Las herramientas de auto-completado de código, como la extensión 'auto​Docstring', **fueron desactivadas para este ejercicio**, favoreciendo la generación de código original por parte del usuario.
 
-## 🛠️ Herramientas y lenguajes utilizadas
+## 🛠️ Herramientas y lenguajes utilizados
 - Lenguaje: Python
 - Entorno: Visual Studio Code
 - Módulos: _math_, _functools_
